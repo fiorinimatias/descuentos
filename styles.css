@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: "badabb";
-    src: url(/badabb.TTF);
+    src: url(badabb.TTF);
   }
 
 h1 {
