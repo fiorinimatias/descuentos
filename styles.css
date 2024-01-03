@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "redmoon";
+  src: url(/fonts/redmoon.otf);
+}
+body {
+  background-image: url(/fondo.jpg);
+  background-size:cover;
+}
+
+@font-face {
+    font-family: "badabb";
+    src: url(/badabb.TTF);
+  }
+
+h1 {
+    font-family: "badabb";
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 2px;
+    margin-top: 4rem;
+    cursor: default;
+    color: rgb(255, 47, 0);
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-family: "badabb";
+    font-size: 2.3rem;
+    text-align: center;
+    cursor: default;
+}
+
+input {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 15rem;
+    color: rgb(255, 27, 27);
+    font-family: "badabb";
+    background-color: rgba(239, 146, 17, 0.318);
+}
+
+button {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 15rem;
+    font-family: "badabb";
+    background-color: rgba(255, 77, 0, 0.476);
+    cursor: pointer;
+}
+
+select {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 15rem;
+    color: rgb(255, 27, 27);
+    font-family: "badabb";
+    background-color: rgba(239, 146, 17, 0.318);
+}
+
+#responsePrice {
+    font-size: 4rem;
+    color: rgb(255, 47, 0);
+    margin-bottom: 0;
+}
+
+.diseño {
+    font-family: "montserrat";
+    color: rgb(255, 27, 27);
+    text-align: center;
+    font-size: 1.3rem;
+    position: fixed 0;
+}
